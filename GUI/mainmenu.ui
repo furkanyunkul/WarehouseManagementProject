@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Warehouse</class>
+ <widget class="QMainWindow" name="Warehouse">
+  <property name="windowModality">
+   <enum>Qt::NonModal</enum>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>229</width>
+    <height>62</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MAIN MENU</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>229</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuWarehouse">
+    <property name="title">
+     <string>Warehouse</string>
+    </property>
+    <addaction name="actionMaterial_Entry"/>
+    <addaction name="actionQuality_2"/>
+    <addaction name="actionLocation_Transfer"/>
+    <addaction name="actionWarehouse_Entry"/>
+   </widget>
+   <addaction name="menuWarehouse"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionMaterial_Entry">
+   <property name="text">
+    <string>Material Entry</string>
+   </property>
+   <property name="menuRole">
+    <enum>QAction::TextHeuristicRole</enum>
+   </property>
+  </action>
+  <action name="action_la_lemleri">
+   <property name="text">
+    <string>İlaç İşlemleri</string>
+   </property>
+  </action>
+  <action name="actionRandevu_lemleri">
+   <property name="text">
+    <string>Randevu İşlemleri</string>
+   </property>
+  </action>
+  <action name="action">
+   <property name="text">
+    <string>öö</string>
+   </property>
+  </action>
+  <action name="actionQuality">
+   <property name="text">
+    <string>Quality</string>
+   </property>
+  </action>
+  <action name="actionQuality_2">
+   <property name="text">
+    <string>Quality</string>
+   </property>
+  </action>
+  <action name="actionLocation_Transfer">
+   <property name="text">
+    <string>Location Transfer</string>
+   </property>
+  </action>
+  <action name="actionWarehouse_Entry">
+   <property name="text">
+    <string>Warehouse Entry</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
